@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regulamin_fragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#006402"
+        android:fontFamily="@font/open_sans_light"
+        android:text="  Regulamin:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="346dp"
+        android:layout_height="598dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:background="#4A006402"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ScrollView
+        android:layout_width="320dp"
+        android:layout_height="570dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="@+id/textView12"
+        app:layout_constraintTop_toTopOf="@+id/textView12">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="REGULAMIN TURNIEJ PONIEDZIAŁKOWY AMATORSKI SEZON 2019/2020"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Inauguracja 23.09.2019 r."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="1. Organizator i miejsce rozgrywek: Klub Frame, Łódź, ul. Narutowicza 7/9"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="2. Zawodnik może przystąpić do turnieju tylko po uprzednim wniesieniu opłaty startowej."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="3. Wpisowe wynosi 20 zł."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text='4. Turnieje ligi Łódzkiej " OPEN "w sezonie 2019/2020 (wrzesień 2019 - maj 2020) rozgrywane będą w poniedziałki od godziny 19 (zapisy do 18: 45, również telefonicznie)'
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="5. System rozgrywek: - 2 KO. Mecze odbywać się będą w odmiany „8 bil”, „9 bil”, „10 bil’naprzemiennie. Mecze rozgrywane będą, prawa strona do 4 zwycięstw, lewa do 3 zwycięstw - chyba że prowadzący podejmą decyzje o przedłużeniu meczów z powodu np. małej ilości zawodników. Rundy pucharowe rozgrywane będą do 4 wygranych partii. Rozstawienie zawodników wynika z losowania przed każdym turniejem. Zawodników losuje automatycznie program."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="6. Zawodnik ma obowiązek stawić się przy stole zaraz po wyczytaniu, jednak nie dłużej niż w ciągu 5 minut. W innym przypadku mecz zostanie uznany za przegrany. Gramy na stole wyznaczonym przez prowadzącego turniej - nie ma możliwości zmiany stołu przez zawodników."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="7. Ze względu na ograniczony czas turnieju, późną godzinę rozpoczęcia i godziny funkcjonowania klubu, zawodnicy są zobowiązani do w miarę szybkiego rozgrywania meczów."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="W meczu trwającym ponad godzinę sędzia ma prawo wprowadzić SHOT CLOCK (na uderzenie 90 sekund po rozbiciu i 40 sekund na każde kolejne uderzenie)."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text='W przypadku celowego przedłużania meczu przez zawodnika prowadzący może dać ostrzeżenie. Nie ma możliwości przerwania pojedynku w trakcie meczu ( tzw. "wzięcie czasu" ). Dopuszcza się krótką przerwę ( max do 2 minut ) przy obopólnej zgodzie zawodników biorących udział w danym pojedynku.'
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView98"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Turniej nie zakończony przed g. 00:30 będzie kontynuowany w następny poniedziałek w godzinach 17-19."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView99"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="8. W zależności od zajętego miejsca w turnieju eliminacyjnym zawodnik zdobywa następując ilość punktów do rankingu"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView100"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="- 1 miejsce – 20 pkt.  - 2 miejsce – 18 pkt.  - 3 miejsce – 16 pkt.  - 5 miejsce – 14 pkt.  - 7 miejsce – 13 pkt.  - 9 miejsce – 12 pkt.  - 13 miejsce – 10 pkt.  - 17 miejsce – 8 pkt.  - 25 miejsce – 6 pkt."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView101"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="9. Istnieje możliwość, w trakcie całego sezonu trzykrotnego wpłacenia wpisowego i nieobecności na turnieju w danym dniu."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView102"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="10. Ostrzeżenie prowadzący może dać zawodnikowi za:"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView103"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="- nadmierne nadużywanie alkoholu"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView104"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="- przeszkadzanie przeciwnikowi jak i innym zawodnikom w trakcie gry"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView105"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="- niestosowne zachowanie"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView106"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="- nieuzasadnione przedłużanie meczu"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView107"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Po drugim ostrzeżeniu organizator lub prowadzący ma prawo usunąć niepokornego zawodnika z turnieju i punkty za ten turniej nie będą uznane."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView108"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Organizator / prowadzący ma prawo nie dopuścić chętnego do wzięcia udziału w turnieju bez podania przyczyn - w takim przypadku niedoszły zawodnik nie ponosi kosztów uczestnictwa w turnieju."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView109"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="11. Przez cały sezon prowadzony jest łączny z każdej odmiany na podstawie, którego zawodnicy kwalifikują się do turnieju „Masters” –za 3 czołowe miejsca w rankingu ogólnym przewidziane są dodatkowo puchary ."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="12. Do turnieju „Masters” kwalifikują się zawodnicy, którzy po wszystkich turniejach zajęli miejsce w pierwszej 8 rankingu ogólnego i mają minimum 50 % frekwencji."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView113"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="W turnieju „Masters” obowiązuje strój turniejowy, zgodny z przepisami PZbil (ciemne wizytowe spodnie i buty, koszula lub koszulka polo klubowa)."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Do turnieju „Masters” dopuszczeni będą zawodnicy tylko w stroju turniejowym."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="13. Turniej „Masters” składa się z 3 turniejów i prowadzony jest osobny ranking na podstawie którego wyłaniany jest zwycięzca."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Na pulę nagród składać się będzie 10 zł. z każdego wpisowego, z każdego turnieju."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="W przypadku takiej samej liczby punktów o kolejności miejsc decyduje ilość wygranych turniejów, ilość zajętych wyższych miejsc w turniejach, obecność w całym sezonie."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="Pula nagród dzielona jest pomiędzy uczestników „Masters” wg. schematu:"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="107dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="I m-ce 40%  II m-ce 23%  III m-ce18%  IV m-ce 12%  V m-ce 7%"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="14. Wszystkich zawodników obowiązuje sportowe zachowanie, w przypadku nieadekwatnego zachowania, a w szczególności nadużycia alkoholu, środków odurzających lub używania wulgarnych słów organizator ma prawo zdyskwalifikować uczestnika."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="15. Prowadzącym turnieje jest: Katarzyna Kulazińska tel. 515 33 28 39 w sprawach organizacyjnych i zapisów."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="16. W sezonie 2019/2020 rozegrane będą 33 turnieje. Ostatni turniej zasadniczy odbędzie się 18.05.2020."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="1 Turniej Masters 25.05.2020  2 Turniej Masters 01.06.2020  3 Turniej Masters 08.06.2020  Zakończenie sezonu 15.06.2020"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="17. W kwestiach spornych i organizacyjnych decyzję podejmują prowadzący turnieje."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="18. Uczestnictwo w turnieju jednoznacznie wiąże się z akceptacją regulaminu."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/open_sans"
+                android:text="19. W takcie sezonu regulamin może ulec zmianie – wszystkie zmiany będą ogłoszone."
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

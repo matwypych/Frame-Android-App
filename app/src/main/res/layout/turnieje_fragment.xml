@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp"
+    tools:context=".turnieje_fragment">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="344dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="28dp"
+        android:background="#4A006402"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ScrollView
+        android:layout_width="276dp"
+        android:layout_height="166dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="@+id/textView18"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toStartOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/textView997"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="276dp"
+                android:layout_height="123dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="2dp"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#000000"
+                android:text="Start godzina 19! Zapisy do godziny 18:45, również telefonicznie, wpisowe 25 zł.  Naprzemiennie odmiana 8-bil, 9-bil,10 bil .  Za prowadzenie turnieju odpowiadają: Katarzyna Kulazińska 515 33 28 39 i Jan Grzelak tel. 603 659 728"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000" />
+
+            <Button
+                android:id="@+id/regulamin2"
+                android:layout_width="262dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="0dp"
+                android:background="#A6A6A6"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#FFFFFF"
+                android:text="regulamin"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/czwRanking2019"
+                android:layout_width="262dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#A6A6A6"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#FFFFFF"
+                android:text="ranking 2018/2019 - 8 bil"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/czwRanking2018"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#A6A6A6"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#FFFFFF"
+                android:text="ranking 2017/2018 - 8 bil"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#A6A6A6"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#FFFFFF"
+                android:text="Ranking 2017/2018 8 bil"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#A6A6A6"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#FFFFFF"
+                android:text="Ranking 2017/2018 - 9 bil"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="263dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="20dp"
+                android:background="#A6A6A6"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#FFFFFF"
+                android:text="Ranking 2016/2017"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="214dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/open_sans"
+        android:text="TURNIEJ CZWARTKOWY OPEN"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView997"
+        android:layout_width="83dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/open_sans"
+        android:text="19.09.2019"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView32" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="344dp"
+        android:layout_height="339dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="28dp"
+        android:background="#4A006402"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <ScrollView
+        android:layout_width="315dp"
+        android:layout_height="259dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView19"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView25">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="290dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#000000"
+                android:text="Start godzina 19! Zapisy do godziny 18:45, również telefonicznie, wpisowe 20 zł.  Naprzemiennie odmiana 8-bil , 9-bil, 10 bil.  Za prowadzenie turnieju odpowiadają: Katarzyna Kulazińska 515 33 28 39"
+                android:textColor="#000000"
+                android:textColorHighlight="#000000"
+                android:textColorHint="#000000"
+                android:textColorLink="#000000" />
+
+            <Button
+                android:id="@+id/regulaminId"
+                android:layout_width="262dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:background="#A6A6A6"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#FFFFFF"
+                android:text="regulamin"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ponRanking2019"
+                android:layout_width="262dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="#A6A6A6"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#FFFFFF"
+                android:text="ranking 2018/2019"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ponRanking2018"
+                android:layout_width="262dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="20dp"
+                android:background="#A6A6A6"
+                android:fontFamily="@font/open_sans"
+                android:shadowColor="#FFFFFF"
+                android:text="ranking 2017/2018"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="291dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/open_sans"
+        android:text="TURNIEJ PONIEDZIAŁKOWY AMATORSKI"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="83dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/open_sans"
+        android:text="23.09.2019"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/textView19"
+        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toTopOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#006402"
+        android:fontFamily="@font/open_sans_light"
+        android:text="  Turnieje:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

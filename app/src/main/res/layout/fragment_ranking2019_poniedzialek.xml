@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".regulamin_fragment">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:background="#006402"
+        android:fontFamily="@font/open_sans_light"
+        android:text="  Ranking 2018/2019:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="376dp"
+        android:layout_height="467dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="0.248">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#434141">
+
+                <TextView
+                    android:id="@+id/textView992"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Imię i Nazwisko"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textColorLink="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/textView991"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="Obecność"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textColorLink="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="Suma"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textColorLink="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="Frekwencja"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textColorLink="#FFFFFF" />
+
+                <TextView
+                    android:id="@+id/textView34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Średnia"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#FFFFFF"
+                    android:textColorLink="#FFFFFF" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A8A4A4">
+
+                <TextView
+                    android:id="@+id/textView972"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Mateusz Szurgot" />
+
+                <TextView
+                    android:id="@+id/textView971"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+
+                <TextView
+                    android:id="@+id/textView973"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="110" />
+
+                <TextView
+                    android:id="@+id/textView974"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="100%" />
+
+                <TextView
+                    android:id="@+id/textView975"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="18.33" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView962"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Konrad Michalik" />
+
+                <TextView
+                    android:id="@+id/textView961"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+
+                <TextView
+                    android:id="@+id/textView963"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="93" />
+
+                <TextView
+                    android:id="@+id/textView964"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="100%" />
+
+                <TextView
+                    android:id="@+id/textView965"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15.50" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A8A4A4">
+
+                <TextView
+                    android:id="@+id/textView952"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Paweł Marzec" />
+
+                <TextView
+                    android:id="@+id/textView951"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+
+                <TextView
+                    android:id="@+id/textView953"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="88" />
+
+                <TextView
+                    android:id="@+id/textView984"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="100%" />
+
+                <TextView
+                    android:id="@+id/textView955"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14.67" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView942"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tomasz Stasiak" />
+
+                <TextView
+                    android:id="@+id/textView941"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+
+                <TextView
+                    android:id="@+id/textView943"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="85" />
+
+                <TextView
+                    android:id="@+id/textView944"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="100%" />
+
+                <TextView
+                    android:id="@+id/textView945"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14.17" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A8A4A4">
+
+                <TextView
+                    android:id="@+id/textView932"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Filip Stanke" />
+
+                <TextView
+                    android:id="@+id/textView931"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+
+                <TextView
+                    android:id="@+id/textView933"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="85" />
+
+                <TextView
+                    android:id="@+id/textView934"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="100%" />
+
+                <TextView
+                    android:id="@+id/textView935"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14.17" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView922"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Przemek Dworakowski" />
+
+                <TextView
+                    android:id="@+id/textView921"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+
+                <TextView
+                    android:id="@+id/textView923"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="83" />
+
+                <TextView
+                    android:id="@+id/textView924"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="100%" />
+
+                <TextView
+                    android:id="@+id/textView925"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13.83" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A8A4A4">
+
+                <TextView
+                    android:id="@+id/textView912"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tomasz Maślanka" />
+
+                <TextView
+                    android:id="@+id/textView911"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="6" />
+
+                <TextView
+                    android:id="@+id/textView913"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="78" />
+
+                <TextView
+                    android:id="@+id/textView914"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="100%" />
+
+                <TextView
+                    android:id="@+id/textView915"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13.00" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView902"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Norbert Przedborski" />
+
+                <TextView
+                    android:id="@+id/textView901"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+
+                <TextView
+                    android:id="@+id/textView903"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="70" />
+
+                <TextView
+                    android:id="@+id/textView904"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="83%" />
+
+                <TextView
+                    android:id="@+id/textView905"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11.67" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A8A4A4">
+
+                <TextView
+                    android:id="@+id/textView882"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Karol Domański" />
+
+                <TextView
+                    android:id="@+id/textView881"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+
+                <TextView
+                    android:id="@+id/textView883"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="62" />
+
+                <TextView
+                    android:id="@+id/textView884"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="83%" />
+
+                <TextView
+                    android:id="@+id/textView885"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.17" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView872"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Szymon Jakubiec" />
+
+                <TextView
+                    android:id="@+id/textView871"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="5" />
+
+                <TextView
+                    android:id="@+id/textView873"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="55" />
+
+                <TextView
+                    android:id="@+id/textView874"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="50%" />
+
+                <TextView
+                    android:id="@+id/textView875"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7.50" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A8A4A4">
+
+                <TextView
+                    android:id="@+id/textView8622"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Hubert Łuczak" />
+
+                <TextView
+                    android:id="@+id/textView861"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <TextView
+                    android:id="@+id/textView863"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="45" />
+
+                <TextView
+                    android:id="@+id/textView864"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="50%" />
+
+                <TextView
+                    android:id="@+id/textView865"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6.67" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView852"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Marta Paczuska" />
+
+                <TextView
+                    android:id="@+id/textView851"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <TextView
+                    android:id="@+id/textView853"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="40" />
+
+                <TextView
+                    android:id="@+id/textView854"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="50%" />
+
+                <TextView
+                    android:id="@+id/textView855"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6.33" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A8A4A4">
+
+                <TextView
+                    android:id="@+id/textView842"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Grzegorz Samujłło" />
+
+                <TextView
+                    android:id="@+id/textView841"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <TextView
+                    android:id="@+id/textView843"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="38" />
+
+                <TextView
+                    android:id="@+id/textView844"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="50%" />
+
+                <TextView
+                    android:id="@+id/textView845"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6.33" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView832"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Artur Barkiewicz" />
+
+                <TextView
+                    android:id="@+id/textView831"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <TextView
+                    android:id="@+id/textView833"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="36" />
+
+                <TextView
+                    android:id="@+id/textView834"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="50%" />
+
+                <TextView
+                    android:id="@+id/textView835"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6.00" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#A8A4A4">
+
+                <TextView
+                    android:id="@+id/textView822"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Kamil Koliński" />
+
+                <TextView
+                    android:id="@+id/textView821"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="3" />
+
+                <TextView
+                    android:id="@+id/textView823"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="34" />
+
+                <TextView
+                    android:id="@+id/textView824"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="33%" />
+
+                <TextView
+                    android:id="@+id/textView8215"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5.67" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView810"
+                    android:layout_width="121dp"
+                    android:layout_height="wrap_content"
+                    android:text="Adam Koperek" />
+
+                <TextView
+                    android:id="@+id/textView811"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="2" />
+
+                <TextView
+                    android:id="@+id/textView812"
+                    android:layout_width="47dp"
+                    android:layout_height="wrap_content"
+                    android:text="26" />
+
+                <TextView
+                    android:id="@+id/textView813"
+                    android:layout_width="82dp"
+                    android:layout_height="wrap_content"
+                    android:text="33%" />
+
+                <TextView
+                    android:id="@+id/textView814"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4.33" />
+            </TableRow>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="357dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/open_sans"
+        android:shadowColor="#000000"
+        android:text="LIGA AMATORSKA SEZON 2018/19 - TURNIEJ PONIEDZIAŁKOWY"
+        android:textColor="#000000"
+        android:textColorLink="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

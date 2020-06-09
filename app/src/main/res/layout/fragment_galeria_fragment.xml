@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aktualnosci_fragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="694dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00F81010"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:background="#006402"
+                android:fontFamily="@font/open_sans_light"
+                android:text="  O klubie:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="27dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:src="@drawable/herb" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="22dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="#4A006402"
+                android:fontFamily="@font/open_sans_light"
+                android:shadowColor="#020202"
+                android:text="Jesteśmy jednym z największych klubów bilardowych w Polsce. Swoją działalność rozpoczęliśmy w 2007 roku.  Na powierzchni 1000 m2 znajdują się 29 stołów do bilarda 9Ft firm : Wik, Dynamic, Brunswick, 1 stół 8Ft, 3 stoły do snookera, 5 automatów do dartsa, 5 stołów do piłkarzyków, stół do ping ponga. Bogate zaplecze sportowe, wyjątkowa atmosfera i dobrze zaopatrzony bar przyciąga miłośników sportowej rywalizacji.  Klub posiada licencję klubu bilardowego PZBil, odbywają się u nas liczne ogólnopolskie turnieje. Do najważniejszych należą Mistrzostwa Polski Amatorów, Turnieje Eliminacyjne Wik Poltur, The Best of The East, cykl turniej Junior Tour i wiele innych o zasięgu lokalnym.  Wnętrze klubu pozwala na organizowanie imprez zarówno tych kameralnych jak i tych dużych na ponad 150 osób. Mamy bogate doświadczenie w organizacji imprez: integracyjnych, okolicznościowych, spotkań biznesowych. Istnieje możliwość zakupienia karnetów treningowych i bonów upominkowych. W klubie można zakupić również wysokiej jakości kije bilardowe oraz wszelkie niezbędne akcesoria."
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true">
+
+                <LinearLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"></LinearLayout>
+
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="348dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/r0" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="49dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
